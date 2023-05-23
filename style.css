@@ -22,7 +22,9 @@ body {
         }
 .container{
             height: 100vh;
-        }
+            display:grid;
+            grid-template-columns: 50% 50%;
+            }
         .container__botao {
                 background-color: var(--botao-azul);
                 border-radius: 5px;
@@ -36,8 +38,6 @@ body {
         .container {
                 height: 100vh;
                 display:grid;
-grid-template-columns: 20% 20%;
-}
-
+        }
                 
         
